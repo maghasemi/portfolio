@@ -1,11 +1,17 @@
 # portfolio
 
-Source of the personal site for M. Amin Ghasemi (aminghasemi.de).
+Source of the personal site for M. Amin Ghasemi, served at https://aminghasemi.de.
 
-- `index.html`: the postdoc page. One self-contained file, no build step.
-- `assets/`: images used by the page.
-- `figures/metMatchAudit/`: the two metMatchAudit README figures recolored to the site palette, ready to copy into that repository's `man/figures/`.
+Each portfolio lives in its own folder and is one self-contained `index.html` with no build step.
 
-Open `index.html` in a browser to preview it.
+| Path | Contents |
+| --- | --- |
+| `postdoc/` | Postdoc page. Its CV goes here as `postdoc/cv.pdf`. |
+| `assets/` | Images shared by all pages. |
+| `figures/metMatchAudit/` | The two metMatchAudit README figures recolored to the site palette, ready to copy into that repository's `man/figures/`. |
+| `index.html` | Redirects the bare domain to `postdoc/` until a general page exists. |
+| `CNAME` | Custom domain for GitHub Pages. |
 
-Not yet in the repository: `cv.pdf`. The "Download CV" links point to it.
+To add a portfolio, create a new folder (for example `bioinformatics/`) with its own `index.html` and `cv.pdf`, and reference shared images as `../assets/...`.
+
+Open any `index.html` in a browser to preview it.
