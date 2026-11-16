@@ -7,6 +7,7 @@ Each portfolio lives in its own folder and is one self-contained `index.html` wi
 | Path | Contents |
 | --- | --- |
 | `postdoc/` | Postdoc page and its CV (`Amin_Ghasemi_CV_Academic.pdf`). |
+| `metabolomics/` | Metabolomics / industry page (not indexed by search engines). Its CV goes here as `Amin_Ghasemi_CV_Metabolomics.pdf`. |
 | `assets/` | Images shared by all pages. |
 | `figures/metMatchAudit/` | The two metMatchAudit README figures recolored to the site palette, ready to copy into that repository's `man/figures/`. |
 | `index.html` | Redirects the bare domain to `postdoc/` until a general page exists. |
